@@ -7,11 +7,9 @@ body, div, form, input, select, textarea, label {
     color: rgb(102, 102, 102);
     line-height: 22px;
 }
-
 body {
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
-
 form {
     width: 60%;
     padding: 20px;
@@ -24,7 +22,6 @@ header h1 {
     font-size: 40px;
     color: #636363;
 }
-
 h2 {
     text-align: center;
     font-size: 30px;
@@ -43,7 +40,6 @@ h2 {
     height: inherit;
     padding: 20px;
 }
-
 .item {
     position: relative;
     margin: 10px 0;
@@ -54,17 +50,14 @@ input, select, textarea {
     border: 1px solid #ccc;
     border-radius: 3px;
 }
-
 input {
     width: calc(100% - 10px);
     padding: 5px;
 }
-
 textarea{
     width: calc(100% - 12px);
     padding: 5px; 
 }
-
 select {
     width: 100%;
     padding: 5px;
@@ -73,7 +66,6 @@ select {
 .name-item input, .name-item div {
     width: calc(50% - 20px);
 }
-
 .gender-div label {
     display: block;
 }
@@ -90,18 +82,14 @@ label.radio {
 .item:hover p, .item:hover i, .gender:hover p, .gender label:hover, input:hover::placeholder {
     color: #9b59b6;
 }
-
 .item input:hover, .item select:hover, .item textarea:hover {
     border: 1px solid transparent;
     box-shadow: 0 0 3px 0 #9b59b6;
     color: #9b59b6;
-    transition: all 0.3s ease;
 }
-
 .item span {
     color: red;
 }
-
 .name-item {
     display: flex;
     flex-wrap: wrap;
